@@ -1,0 +1,34 @@
+Fix typos in files.
+--- a/src/swtpm_setup/swtpm_setup.c
++++ b/src/swtpm_setup/swtpm_setup.c
+@@ -861,7 +861,7 @@
+         "                 : This option is deprecated and has no effect.\n"
+         "\n"
+         "--print-capabilities\n"
+-        "                 : Print JSON formatted capabilites added after v0.1 and exit.\n"
++        "                 : Print JSON formatted capabilities added after v0.1 and exit.\n"
+         "\n"
+         "--create-config-files [[overwrite][,root]]\n"
+         "                 : Create swtpm_setup and swtpm-localca config files for a\n"
+--- a/man/man8/swtpm_bios.pod
++++ b/man/man8/swtpm_bios.pod
+@@ -22,7 +22,7 @@
+ the environment variable I<TCSD_TCP_DEVICE_PORT> indicates another port. 
+ 
+ In case of success 0 will be returned. In case a TPM error was
+-encountered the return code will be 128. In case of communcation
++encountered the return code will be 128. In case of communication
+ failure 255 is returned. In case the TPM needs to be reset to become
+ activated, 129 will be returned.
+ 
+--- a/man/man8/swtpm_ioctl.pod
++++ b/man/man8/swtpm_ioctl.pod
+@@ -76,7 +76,7 @@
+ 
+ Have the TPM write the volatile state to a file. Upon a TPM_Init (-i) the
+ TPM state will be read and the TPM can then resume operation without further
+-intialization.
++initialization.
+ 
+ =item B<-C>
+ 

@@ -1,5 +1,5 @@
-template-repository (1.0-1) unstable; urgency=medium
+swtpm (0.7.0~rc2-1) unstable; urgency=medium
 
-  * Initial release
+  * Initial release. (Closes: #941199)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Seunghun Han <kkamagui@gmail.com>  Fri, 22 Oct 2021 13:53:57 +0900

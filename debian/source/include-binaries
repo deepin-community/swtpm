@@ -1,0 +1,5 @@
+tests/data/tpm2state3d/signature2.bin
+tests/data/tpm2state3d/tpm2-00.permall
+tests/data/tpm2state3d/tpm2-00.volatilestate
+tests/data/tpm2state5/signature.bin
+tests/data/tpm2state5/tpm2-00.permall

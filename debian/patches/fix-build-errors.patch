@@ -1,0 +1,12 @@
+Fix build erros in files.
+--- a/src/swtpm/swtpm_nvstore_linear_file.c
++++ b/src/swtpm/swtpm_nvstore_linear_file.c
+@@ -55,7 +55,7 @@
+         goto fail;
+     }
+ 
+-    if (st.st_size >= (uint32_t)sizeof(struct nvram_linear_hdr)) {
++    if (st.st_size >= (off_t)sizeof(struct nvram_linear_hdr)) {
+         /* valid regular file-ish */
+         mmap_state.size = st.st_size;
+         mmap_state.can_truncate = true;
